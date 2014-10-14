@@ -13,8 +13,8 @@
     return instance;
   };
 
-  var stripNbsp = _.debounce(function() {
+  var stripNbsp = function() {
     var val = editor.getValue().replace(/&nbsp;/g, ' ');
     editor.setValue(val, true);
-  }, 500);
+  };
 })();
