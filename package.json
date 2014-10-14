@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "0.1.0",
+  "description": "Remove nbsp from wysihtml5 on change",
+  "main": "src/wysihtml5-nbsp-polyfill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Zeumo/wysihtml5-nbsp-polyfill.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeumo/wysihtml5-nbsp-polyfill/issues"
+  },
+  "homepage": "https://github.com/Zeumo/wysihtml5-nbsp-polyfill"
+}
