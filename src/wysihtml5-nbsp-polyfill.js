@@ -14,7 +14,7 @@
   };
 
   var stripNbsp = function() {
-    var val = editor.getValue().replace(/&nbsp;/g, ' ');
-    editor.setValue(val, true);
+    var val = instance.getValue().replace(/&nbsp;/g, ' ');
+    instance.setValue(val, true);
   };
 })();
